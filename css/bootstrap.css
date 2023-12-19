@@ -2180,6 +2180,8 @@ textarea.form-control {
 	cursor: pointer;
 }
 
+
+
 a.btn.disabled,
 fieldset:disabled a.btn {
 	pointer-events: none;
@@ -3666,10 +3668,10 @@ input[type="button"].btn-block {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
+	background-color: #1B1C1E;
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
-	border-radius: 0.25rem;
+	border-radius: 15px;
 }
 
 .card > hr {
@@ -3690,6 +3692,8 @@ input[type="button"].btn-block {
 .card-body {
 	flex: 1 1 auto;
 	padding: 1.25rem;
+	border-radius: 15px;
+	
 }
 
 .card-title {
@@ -4983,6 +4987,10 @@ button.close {
 
 .bg-transparent {
 	background-color: transparent !important;
+}
+
+.bg-dark-gray{
+	background-color: #1B1C1E !important;
 }
 
 .border {
